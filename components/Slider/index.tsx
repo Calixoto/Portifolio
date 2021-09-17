@@ -1,9 +1,9 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import SwiperCore, { Navigation, Pagination, A11y } from 'swiper';
 import { Flex } from "@chakra-ui/react";
 import { Projetos } from '../Projetos';
+
+SwiperCore.use([Navigation, Pagination, A11y]);
 
 export default function Slider() {
     return (
