@@ -6,10 +6,7 @@ export function Header() {
 
             <Flex as="header" p="4">
                 <Link mr="8">
-                    Projetos
-                </Link>
-                <Link mr="8">
-                    Contato
+                    Lucas Calixto
                 </Link>
             </Flex>
 
